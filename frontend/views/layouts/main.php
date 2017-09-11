@@ -61,8 +61,8 @@ AppAsset::register($this);
                                 <li><a href="/site/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                                 <li><a href="/site/signup"><span class="glyphicon glyphicon-record"></span> Registration</a></li>
                             <?php }else { ?>
-                                <li><a href="/employee-profile/">Add Employee</a></li>
-                                <li><a href="/employee-pay/">Generate Payslip</a></li>
+                                <li><a href="/employee-profile/">Employee</a></li>
+                                <li><a href="/employee-pay/">Payslip</a></li>
                                 <li><a href="/csv-import/">Bulk Import</a></li>
                                 <li><a href="/site/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                             <?php } ?>
